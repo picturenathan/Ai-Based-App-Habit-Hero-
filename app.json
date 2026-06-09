@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "LifeLevels",
+    "slug": "lifelevels",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "lifelevels",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0f0f23"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lifelevels.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0f0f23"
+      },
+      "package": "com.lifelevels.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
